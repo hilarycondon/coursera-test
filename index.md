@@ -12,3 +12,4 @@ This is a repository to store work completed as part of the [HTML, CSS, and Java
 | Module       | Path to Assignment | Path to README.md |
 |:-------------|:-------------------|:------------------|
 | 2            | [Module 2 Assignment](https://hilarycondon.github.io/jhu-coursera-dev/mod2_solution/) | [Module 2 README.md](https://github.com/hilarycondon/jhu-coursera-dev/blob/master/mod2_solution/README.md)  |
+| 3            | [Module 3 Assignment](https://hilarycondon.github.io/jhu-coursera-dev/mod3_solution/) | [Module 3 README.md](https://github.com/hilarycondon/jhu-coursera-dev/blob/master/mod3_solution/README.md)  |
