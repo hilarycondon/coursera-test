@@ -1,0 +1,208 @@
+/* 
+    Hilary Condon
+    Styles for Module 3 Assignment
+    Course: HTML, CSS, and Javascript for Web Developers,
+    by Johns Hopkins University through Coursera
+*/ 
+
+/* 
+    BASE STYLES and X-SMALL STYLES 
+    *** MOBILE *** 
+    These styles apply to all breakpoints (all breakpoints greater than 0),
+    unless they are overwritten at a larger breakpoint) 
+*/ 
+@media (min-width: 0px) {
+    * {
+        box-sizing: border-box;
+        margin:0;
+        padding:0;
+    }
+    a {
+        color: #fff;
+        text-decoration:none;
+    }
+    
+    a:hover, a:focus, a:active {
+        color: #2C3E50;
+        text-decoration: none;
+    }
+    body {
+     font-family: 'Roboto', sans-serif;
+      color: #000;
+
+}
+    .navbar-brand {
+        height: 100px;
+    }   
+    .navbar-custom {
+    background-color: #2C3E50; 
+    border: 0px #ccc; 
+}
+    #main-button {
+    margin-top: 40px;
+    margin-bottom: 18px;
+    border-color: #2C3E50; 
+    background-color: #2C3E50;
+    }
+    #main-button > .icon-bar {
+        background-color: #fff;
+    }
+
+    #main-button:hover {
+        background-color: #fff;
+    }
+
+    #main-button:hover  > .icon-bar {
+        background-color:#2C3E50;
+    }
+    #container{
+        width:100%;
+        font-size:1em;
+        color: #2C3E50;
+    }
+    .col-xs-12 {
+        width: 100%;
+    }
+    
+    .row {
+        width:100%;
+    }
+    h1, h2, h3 {
+        font-family: 'Montserrat', sans-serif;
+    }
+    h1 {
+        font-size: 2.5em;
+        text-align:center;
+        margin-bottom: 4%;
+        margin-top:9%;    
+    }
+    h1:hover {
+        color: #fff;
+    }
+    h2 {
+        font-size: 2em;
+        padding:3px 5px;
+ 
+    }
+    
+    h3 {
+        font-size: 1.15em;
+        font-weight: bold;
+    }
+    p {
+        font-family: 'Roboto', sans-serif;
+        padding: 0px 10px;
+        margin-top:40px;
+        word-wrap: break-word;
+    }
+    #main-content > div {
+        background-color: #ECF0F1;
+        color: #2C3E50;
+        float:left;
+        padding-bottom: 10px;
+        
+    }
+    div.col-lg-3, div.col-md-6, div.col-xs-12 {
+        background-color: #ECF0F1;
+        color: #2C3E50;
+        float:left;
+        width: 95%;
+        border: solid 1px #2C3E50;
+        margin: 1.5% 5% 1.5% 2.5%;
+        min-height: 150px;
+        position: relative;
+    
+    }
+
+
+    .mobile-menu > ul {
+        margin: 0px;
+        background-color:#30B41D;
+        border: 1px solid #2C3E50;
+
+    }
+    .mobile-menu > ul > li {
+        border-top: 1px solid #2C3E50;
+    }
+
+    .navbar-custom .navbar-collapse {
+        padding-left: 0px;
+        padding-right:0px;
+        padding: 0px;
+        margin:0px;
+        
+    }
+    
+    /** Back to Top Button Styles **/
+    .backToTop {
+        background-color: #2C3E50;
+        padding:2px;
+        width: 100px;
+        text-align:center;
+        margin: 0 auto;
+    }
+    .backToTop:hover , .backToTop:hover > a {
+        color: #2C3E50;
+        background-color: #30B41D;
+        padding:2px;
+        width: 100px;
+        text-align:center;
+        margin: 0 auto;
+    }
+}
+/* 
+    MEDIUM STYLES 
+    *** TABLET ***
+*/
+@media (min-width: 768px) {
+    div.col-md-6 {
+        width: 45%;
+        margin: 2.5%;
+    }
+    div.col-md-12 {
+        width: 95%;
+        margin: 0% 2.5% 0% 2.5%;
+    }
+    
+    #chicken {
+        margin: 2.5% 1.25% 2.5% 2.5%;
+    }
+    
+    #beef {
+        margin: 2.5% 2.5% 2.5% 1.25%;
+    }
+    
+    h1 {
+        margin-top: 4%;
+        margin-bottom: 1.5%;
+
+    }
+}
+/* 
+    LARGE STYLES 
+    *** DESKTOP ***
+*/
+@media (min-width: 992px) {
+    div.col-lg-3 {
+        width: 28%;
+        min-height: 150px;
+        margin: 2.65%;
+              
+    }
+    h1 {
+        margin-bottom: 1.5%;
+        margin-top: 5%;
+    }
+    
+    #chicken {
+        margin: 2.5% 1.25% 2.5% 2.5%;
+    }
+    
+    #beef {
+        margin: 2.5% 1.25% 2.5% 1.25%;
+    }
+    
+    #sushi {
+        margin: 2.5% 2.5% 2.5% 1.25%;
+    }
+}
